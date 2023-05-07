@@ -209,7 +209,7 @@ $(function () {
 $(function () {
    const screenWidth = window.screen.width
    if (screenWidth < 800) {
-      $('#iframe').css(`width`, `${screenWidth}px`).css('height',`${screenWidth}px`/2).css('padding','0px 10px');
+      $('.iframe').css(`width`, `${screenWidth}px`).css('height',`${screenWidth}px`/2).css('padding','0px 10px');
       $('form').css(`width`, `${screenWidth}px`);
    }
 })

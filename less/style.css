@@ -208,7 +208,7 @@ a {
   border-radius: 10px;
   border: 2px solid antiquewhite;
 }
-.wraper main .about-us .about-us-text-foto #iframe {
+.wraper main .about-us .about-us-text-foto .iframe {
   display: block;
   margin: auto;
   margin-top: 20px;
@@ -309,9 +309,13 @@ a {
   margin: auto;
   text-align: center;
   font-size: 27px;
+  border: 2px solid;
+  box-shadow: inset 0 0 5px 5px #ccc;
+  padding: 10px;
 }
 .wraper main .price .price-main li {
   padding: 5px;
+  text-shadow: 0 0 25px;
 }
 .wraper main .order {
   background: #000000;
